@@ -3,7 +3,7 @@ def create_an_empty_array
 end
 
 def create_an_array
-  Array.new(4)
+  Array.new(4) 
 end
 
 def add_element_to_end_of_array(array, element)
@@ -29,8 +29,10 @@ end
 
 def retrieve_first_element_from_array(array)
   array[0]
+  array.first
 end
 
 def retrieve_last_element_from_array(array)
-  array[-1]
+  # array[-1]
+  array.last
 end
